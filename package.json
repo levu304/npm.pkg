@@ -1,6 +1,13 @@
 {
-  "name": "npm-packages",
-  "version": "1.0.0",
+  "name": "@levu304/npm.pkg",
+  "version": "0.1.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish --access public"
+  }
 }
